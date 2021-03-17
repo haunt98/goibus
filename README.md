@@ -37,8 +37,8 @@ Some uncommon class/methods are also skipped for now.
 | [IBusEngineDesc](http://ibus.github.io/docs/ibus-1.5/IBusEngineDesc.html)       | :heavy_check_mark: | Implemented In `engineDesc.go`                                                      |
 | [IBusFactory](http://ibus.github.io/docs/ibus-1.5/IBusFactory.html)             | :heavy_check_mark: | Implemented In `factory.go`                                                         |
 | [IBusHotkeyProfile](http://ibus.github.io/docs/ibus-1.5/IBusHotkeyProfile.html) | :x:                | Ignored, not implemented                                                            |
-| [IBusInputContext](http://ibus.github.io/docs/ibus-1.5/IBusInputContext.html)   | :constructuon:     | Ignored, relevant inherited signals implemented in `Engine`                         |
-| [IBusKeymap](http://ibus.github.io/docs/ibus-1.5/IBusKeymap.html)               | :constructuon:     | Ignored for now, will implement                                                     |
+| [IBusInputContext](http://ibus.github.io/docs/ibus-1.5/IBusInputContext.html)   | :construction:     | Ignored, relevant inherited signals implemented in `Engine`                         |
+| [IBusKeymap](http://ibus.github.io/docs/ibus-1.5/IBusKeymap.html)               | :construction:     | Ignored for now, will implement                                                     |
 | [IBusLookupTable](http://ibus.github.io/docs/ibus-1.5/IBusLookupTable.html)     | :heavy_check_mark: | Implemented In `lookupTable.go`                                                     |
 | [IBusObject](http://ibus.github.io/docs/ibus-1.5/IBusObject.html)               | :heavy_check_mark: | Ignored, Parent/Interface class, relevant inherited signals implemented in `Engine` |
 | [IBusObservedPath](http://ibus.github.io/docs/ibus-1.5/IBusObservedPath.html)   | :x:                | Ignored, not implemented                                                            |
