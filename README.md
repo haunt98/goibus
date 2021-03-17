@@ -25,7 +25,7 @@ Some uncommon class/methods are also skipped for now.
 
 ## Implementation
 
-| libibus                                                                         | -                  | goibus                                                                              |
+| libibus                                                                         |                    | goibus                                                                              |
 | ------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------- |
 | [IBusAttrList](http://ibus.github.io/docs/ibus-1.5/IBusAttrList.html)           | :heavy_check_mark: | Implemented In `text.go`                                                            |
 | [IBusAttribute](http://ibus.github.io/docs/ibus-1.5/IBusAttribute.html)         | :heavy_check_mark: | Implemented In `text.go`                                                            |
