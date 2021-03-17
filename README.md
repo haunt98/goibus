@@ -23,33 +23,33 @@ libibus has various classes that are not absolutely required for creating engine
 This library only implements engine related classes.
 Some uncommon class/methods are also skipped for now.
 
-## Implementation.
+## Implementation
 
-| libibus                                                                         | -                   | goibus                                                                              |
-| ------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| [IBusAttrList](http://ibus.github.io/docs/ibus-1.5/IBusAttrList.html)           | :ok:  | Implemented In `text.go`                                                            |
-| [IBusAttribute](http://ibus.github.io/docs/ibus-1.5/IBusAttribute.html)         | :ok:  | Implemented In `text.go`                                                            |
-| [IBusBus](http://ibus.github.io/docs/ibus-1.5/IBusBus.html)                     | :ok:  | Implemented In `bus.go`                                                             |
-| [IBusComponent](http://ibus.github.io/docs/ibus-1.5/IBusComponent.html)         | :ok:  | Implemented In `component.go`                                                       |
-| [IBusConfig](http://ibus.github.io/docs/ibus-1.5/IBusConfig.html)               | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusConfigService](http://ibus.github.io/docs/ibus-1.5/IBusConfigService.html) | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusEngine](http://ibus.github.io/docs/ibus-1.5/IBusEngine.html)               | :ok:  | Implemented In `engine.go`                                                          |
-| [IBusEngineDesc](http://ibus.github.io/docs/ibus-1.5/IBusEngineDesc.html)       | :ok:  | Implemented In `engineDesc.go`                                                      |
-| [IBusFactory](http://ibus.github.io/docs/ibus-1.5/IBusFactory.html)             | :ok:  | Implemented In `factory.go`                                                         |
-| [IBusHotkeyProfile](http://ibus.github.io/docs/ibus-1.5/IBusHotkeyProfile.html) | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusInputContext](http://ibus.github.io/docs/ibus-1.5/IBusInputContext.html)   | :large_blue_circle: | Ignored, relevant inherited signals implemented in `Engine`                         |
-| [IBusKeymap](http://ibus.github.io/docs/ibus-1.5/IBusKeymap.html)               | :large_blue_circle: | Ignored for now, will implement                                                     |
-| [IBusLookupTable](http://ibus.github.io/docs/ibus-1.5/IBusLookupTable.html)     | :ok:  | Implemented In `lookupTable.go`                                                     |
-| [IBusObject](http://ibus.github.io/docs/ibus-1.5/IBusObject.html)               | :ok:  | Ignored, Parent/Interface class, relevant inherited signals implemented in `Engine` |
-| [IBusObservedPath](http://ibus.github.io/docs/ibus-1.5/IBusObservedPath.html)   | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusPanelService](http://ibus.github.io/docs/ibus-1.5/IBusPanelService.html)   | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusPropList](http://ibus.github.io/docs/ibus-1.5/IBusPropList.html)           | :ok:  | Implemented In `property.go`                                                        |
-| [IBusProperty](http://ibus.github.io/docs/ibus-1.5/IBusProperty.html)           | :ok:  | Implemented In `property.go`                                                        |
-| [IBusProxy](http://ibus.github.io/docs/ibus-1.5/IBusProxy.html)                 | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusRegistry](http://ibus.github.io/docs/ibus-1.5/IBusRegistry.html)           | :red_circle:        | Ignored, not implemented                                                            |
-| [IBusSerializable](http://ibus.github.io/docs/ibus-1.5/IBusSerializable.html)   | :ok:  | Not needed in golang, All implemented classes are Serializable                      |
-| [IBusService](http://ibus.github.io/docs/ibus-1.5/IBusService.html)             | :ok:  | Ignored, not needed. Parent/Interface class                                         |
-| [IBusText](http://ibus.github.io/docs/ibus-1.5/IBusText.html)                   | :ok:  | Implemented In `text.go`                                                            |
+| libibus                                                                         | -                  | goibus                                                                              |
+| ------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------- |
+| [IBusAttrList](http://ibus.github.io/docs/ibus-1.5/IBusAttrList.html)           | :heavy_check_mark: | Implemented In `text.go`                                                            |
+| [IBusAttribute](http://ibus.github.io/docs/ibus-1.5/IBusAttribute.html)         | :heavy_check_mark: | Implemented In `text.go`                                                            |
+| [IBusBus](http://ibus.github.io/docs/ibus-1.5/IBusBus.html)                     | :heavy_check_mark: | Implemented In `bus.go`                                                             |
+| [IBusComponent](http://ibus.github.io/docs/ibus-1.5/IBusComponent.html)         | :heavy_check_mark: | Implemented In `component.go`                                                       |
+| [IBusConfig](http://ibus.github.io/docs/ibus-1.5/IBusConfig.html)               | :x:                | Ignored, not implemented                                                            |
+| [IBusConfigService](http://ibus.github.io/docs/ibus-1.5/IBusConfigService.html) | :x:                | Ignored, not implemented                                                            |
+| [IBusEngine](http://ibus.github.io/docs/ibus-1.5/IBusEngine.html)               | :heavy_check_mark: | Implemented In `engine.go`                                                          |
+| [IBusEngineDesc](http://ibus.github.io/docs/ibus-1.5/IBusEngineDesc.html)       | :heavy_check_mark: | Implemented In `engineDesc.go`                                                      |
+| [IBusFactory](http://ibus.github.io/docs/ibus-1.5/IBusFactory.html)             | :heavy_check_mark: | Implemented In `factory.go`                                                         |
+| [IBusHotkeyProfile](http://ibus.github.io/docs/ibus-1.5/IBusHotkeyProfile.html) | :x:                | Ignored, not implemented                                                            |
+| [IBusInputContext](http://ibus.github.io/docs/ibus-1.5/IBusInputContext.html)   | :constructuon:     | Ignored, relevant inherited signals implemented in `Engine`                         |
+| [IBusKeymap](http://ibus.github.io/docs/ibus-1.5/IBusKeymap.html)               | :constructuon:     | Ignored for now, will implement                                                     |
+| [IBusLookupTable](http://ibus.github.io/docs/ibus-1.5/IBusLookupTable.html)     | :heavy_check_mark: | Implemented In `lookupTable.go`                                                     |
+| [IBusObject](http://ibus.github.io/docs/ibus-1.5/IBusObject.html)               | :heavy_check_mark: | Ignored, Parent/Interface class, relevant inherited signals implemented in `Engine` |
+| [IBusObservedPath](http://ibus.github.io/docs/ibus-1.5/IBusObservedPath.html)   | :x:                | Ignored, not implemented                                                            |
+| [IBusPanelService](http://ibus.github.io/docs/ibus-1.5/IBusPanelService.html)   | :x:                | Ignored, not implemented                                                            |
+| [IBusPropList](http://ibus.github.io/docs/ibus-1.5/IBusPropList.html)           | :heavy_check_mark: | Implemented In `property.go`                                                        |
+| [IBusProperty](http://ibus.github.io/docs/ibus-1.5/IBusProperty.html)           | :heavy_check_mark: | Implemented In `property.go`                                                        |
+| [IBusProxy](http://ibus.github.io/docs/ibus-1.5/IBusProxy.html)                 | :x:                | Ignored, not implemented                                                            |
+| [IBusRegistry](http://ibus.github.io/docs/ibus-1.5/IBusRegistry.html)           | :x:                | Ignored, not implemented                                                            |
+| [IBusSerializable](http://ibus.github.io/docs/ibus-1.5/IBusSerializable.html)   | :heavy_check_mark: | Not needed in golang, All implemented classes are Serializable                      |
+| [IBusService](http://ibus.github.io/docs/ibus-1.5/IBusService.html)             | :heavy_check_mark: | Ignored, not needed. Parent/Interface class                                         |
+| [IBusText](http://ibus.github.io/docs/ibus-1.5/IBusText.html)                   | :heavy_check_mark: | Implemented In `text.go`                                                            |
 
 ## Install
 
