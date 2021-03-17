@@ -3,9 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/godbus/dbus"
-	"github.com/sarim/goibus/ibus"
 	"os"
+
+	"github.com/godbus/dbus/v5"
+	"github.com/haunt98/goibus/ibus"
 )
 
 var embeded = flag.Bool("ibus", false, "Run the embeded ibus component")
